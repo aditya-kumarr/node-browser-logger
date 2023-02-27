@@ -14,7 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/aditya-kumarr/node-browser-logger.git"
   },
-  "keywords": [],
+  "keywords": [
+    "node-logger",
+    "console",
+    "logs",
+    "browser",
+    "node",
+    "watch"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
