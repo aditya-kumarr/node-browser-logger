@@ -1,11 +1,18 @@
 {
-  "name": "blank",
+  "name": "node-browser-logger",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
+  "bin": {
+    "watch-logs": "./script.js"
+  },
   "scripts": {
     "start": "node script.js",
     "dev": "nodemon script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya-kumarr/node-browser-logger.git"
   },
   "keywords": [],
   "author": "",

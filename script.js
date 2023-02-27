@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const express = require("express");
 require("dotenv").config();
 const app = express();
@@ -6,7 +7,7 @@ var eventEmitter = new events.EventEmitter();
 
 var http = require("http").createServer(app);
 var io = require("socket.io")(http);
-const PORT = process.env.PORT || 9630;
+const PORT = process.env.PORT || 9369;
 
 const dataSender = () => {
   this.socket = { emit: () => {} };
