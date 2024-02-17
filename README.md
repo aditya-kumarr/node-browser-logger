@@ -1,6 +1,6 @@
 # Better Node Logs
 
-This package is solves the problem of not being able to view objects in the terminal, even though there are multiple options, I found it easier to create a package for ths problem
+This package solves the problem of not being able to view objects in the terminal, even though there are multiple options, I found it easier to create a package for ths problem
 
 
 ## Installation
